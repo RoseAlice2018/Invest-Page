@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>投资组合管理器</title>
+<link rel="stylesheet" type="text/css" href="main_style.css">
+<script src="main_script.js"></script>
+</head>
+<body>
+  <div id="portfolio-container">
+    <table id="investment-table">
+      <thead>
+        <tr>
+          <th>股票</th>
+          <th>金额</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 动态添加行 -->
+      </tbody>
+    </table>
+    <button id="add-investment">添加投资</button>
+    <table id="summary-table">
+      <tr>
+        <td>持有金额总数: <span id="total-holdings"></span></td>
+      </tr>
+      <tr>
+        <td>目标金额: <span id="target-amount"></span></td>
+      </tr>
+      <tr>
+        <td>总金额占目标金额比例: <span id="ratio"></span></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#portfolio-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#investment-table, #summary-table {
+  width: 45%;
+  border-collapse: collapse;
+}
+
+#investment-table th, #investment-table td, #summary-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#investment-table thead {
+  background-color: #f2f2f2;
+}
+
+#add-investment {
+  margin-top: 10px;
+}
